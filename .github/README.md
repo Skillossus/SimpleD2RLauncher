@@ -33,8 +33,8 @@ Before we begin, make sure you meet these two prerequisites:
    - You can place the SimpleD2RLauncher.ps1 file anywhere. For convenience, I'm placing it on my desktop in a folder called "SimpleD2RLauncher."
 
 2. **Get the Handle Program from Microsoft:**
-   - Download `handle.exe` from Microsoft.
-   - Place it in the same directory as SimpleD2RLauncher.
+   - Download `handle.exe` from Microsoft. https://learn.microsoft.com/en-us/sysinternals/downloads/handle
+   - Extract it to the same directory as SimpleD2RLauncher.ps1
 
 ---
 
@@ -46,7 +46,9 @@ Now, let's set up the accounts you want to launch. This script utilizes a web to
 3. Log out of this account in that same private tab at https://us.shop.battle.net/?logout
 4. Open SimpleD2RLauncher.ps1 and modify `$DISPLAY_NAMES` to a descriptive name that works for you (does **NOT** need to be your email). For example `$DISPLAY_NAMES = @("Hammerdin")`
 5. Modify `$WEB_TOKENS` to contain the web token you just copied from step 1 in our case the new value would be `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567")`
-6. Repeat this process for each account. Seperating each display name and web token with a comma and ensuring they are wrapped in double quotes (`$DISPLAY_NAMES = @("Hammerdin", "BO Barb")` and `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567", "US-931c67313fa4484ba94c6de589477762-7654321")`)
+6. Repeat this process for each account. Seperating each display name and web token with a comma and ensuring they are wrapped in double quotes
+   - (`$DISPLAY_NAMES = @("Hammerdin", "BO Barb")`
+   - `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567", "US-931c67313fa4484ba94c6de589477762-7654321")`)
 
 ---
 
