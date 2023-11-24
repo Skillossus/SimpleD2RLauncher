@@ -53,7 +53,7 @@ Now, let's set up the accounts you want to launch. This script utilizes a web to
 ---
 
 **Launching the Game:**
-1. Right click on `SimpleD2RLauncher.ps1`` and run it in PowerShell. Approve the UAC prompt if present.
+1. Right click on `SimpleD2RLauncher.ps1` and run it in PowerShell. Approve the UAC prompt if present.
 2. You'll now be presented with all of your accounts.
    - To launch ALL of your accounts, just press enter.
    - To launch multiple accounts, type in the corresponding number for each account separated by a space. Eg: 1 3 4
