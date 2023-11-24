@@ -34,14 +34,11 @@ Before we begin, make sure you meet these two prerequisites:
 
 Now, let's set up the accounts you want to launch. This script utilizes a web token, the exact same method Battle.net uses to launch the game. You must repeat these steps for each account you wish to set up.
 1. In a private browser (CTRL + SHIFT + N) go to https://us.battle.net/login/en/?externalChallenge=login&app=OSI and log in. This will redirect you to a page such as http://localhost:0/?ST=US-53e84b256e5549ee8dceb3540b15b250-1234567 and present you with an error. This is intended.
-```
-The webpage at http://localhost:0/?ST=US-53e84b256e5549ee8dceb3540b15b250-1234567 might be temporarily down or it may have moved permanently to a new web address.
-```
-We are specifically interested in `US-53e84b256e5549ee8dceb3540b15b250-1234567` as this will be our web token for this account. Copy this token and **NEVER GIVE IT TO ANYONE** because anyone with this web token will have full access to your account.
-2. Log out of this account in that same private tab at https://us.shop.battle.net/?logout
-3. Open SimpleD2RLauncher.ps1 and modify `$DISPLAY_NAMES` to a descriptive name that works for you (does **NOT** need to be your email). For example `$DISPLAY_NAMES = @("Hammerdin")`
-4. Modify `$WEB_TOKENS` to contain the web token you just copied from step 1 in our case the new value would be `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567")`
-4. Repeat this process for each account. Seperating each display name and web token with a comma and ensuring they are wrapped in double quotes (`$DISPLAY_NAMES = @("Hammerdin", "BO Barb")` and `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567", "US-931c67313fa4484ba94c6de589477762-7654321")`)
+2. You will see an error page the states `The webpage at http://localhost:0/?ST=US-53e84b256e5549ee8dceb3540b15b250-1234567 might be temporarily down or it may have moved permanently to a new web address.` this is intended. We are specifically interested in `US-53e84b256e5549ee8dceb3540b15b250-1234567` as this will be our web token for this account. Copy this token and **NEVER GIVE IT TO ANYONE** because anyone with this web token will have full access to your account.
+3. Log out of this account in that same private tab at https://us.shop.battle.net/?logout
+4. Open SimpleD2RLauncher.ps1 and modify `$DISPLAY_NAMES` to a descriptive name that works for you (does **NOT** need to be your email). For example `$DISPLAY_NAMES = @("Hammerdin")`
+5. Modify `$WEB_TOKENS` to contain the web token you just copied from step 1 in our case the new value would be `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567")`
+6. Repeat this process for each account. Seperating each display name and web token with a comma and ensuring they are wrapped in double quotes (`$DISPLAY_NAMES = @("Hammerdin", "BO Barb")` and `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567", "US-931c67313fa4484ba94c6de589477762-7654321")`)
 
 ---
 
