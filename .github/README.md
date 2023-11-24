@@ -53,6 +53,12 @@ Now, let's set up the accounts you want to launch. This script utilizes a web to
    - To launch in a different region, type in 1 for Americas, 2 for Europe, or 3 for Asia followed by enter.
 4. Once you've hit the character select screen, come back to the powershell window, and press enter to launch the next account. Returning to this powershell window each time you're ready to launch the next account.
 
+![AccountPicker](assets/AccountPicker.png?raw=true "AccountPicker")
+
+---
+
+![RegionPicker](assets/RegionPicker.png?raw=true "RegionPicker")
+
 ---
 
 **Work in Progress:**
