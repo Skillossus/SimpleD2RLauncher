@@ -45,7 +45,8 @@ Now, let's set up the accounts you want to launch. This script utilizes a web to
 2. You will see an error page that states `The webpage at http://localhost:0/?ST=US-53e84b256e5549ee8dceb3540b15b250-1234567 might be temporarily down or it may have moved permanently to a new web address.`. Good. We are specifically interested in `US-53e84b256e5549ee8dceb3540b15b250-1234567` as this will be our web token for this account. Copy this token and **NEVER GIVE IT TO ANYONE** because anyone with this web token will have full access to your account.
 3. Open `SimpleD2RLauncher.ps1` in your favorite text editor and modify `$DISPLAY_NAMES` to a descriptive name that works for you (does **NOT** need to be your email). For example `$DISPLAY_NAMES = @("Hammerdin")`
 4. Modify `$WEB_TOKENS` to contain the web token you just copied from Step 2 in our case the new value would be `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567")`
-5. Repeat this process for each account. Separating each display name and web token with a comma and ensuring they are wrapped in double quotes. For example, for 2 accounts your script should look like this (substituting your own values).
+5. Close out of this private browser completely. You need to do this so that you can make a new private window and log in with your second (and third+) accounts. If, when navigating back to https://us.battle.net/login/en/?externalChallenge=login&app=OSI you are NOT presented with a username and password prompt. Then close the private browser and try again.
+6. Repeat this process for each account. Separating each display name and web token with a comma and ensuring they are wrapped in double quotes. For example, for 2 accounts your script should look like this (substituting your own values).
    - `$DISPLAY_NAMES = @("Hammerdin", "BO Barb")`
    - `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567", "US-931c67313fa4484ba94c6de589477762-7654321")`
 
