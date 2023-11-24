@@ -21,7 +21,7 @@ Before we begin, make sure you meet these two prerequisites:
 **Setup:**
 
 1. **Download SimpleD2RLauncher:**
-   - Visit my GitHub repository and download the latest release.
+   - Visit my GitHub repository and download the latest release. https://github.com/Skillossus/SimpleD2RLauncher/releases/latest
    - You can place the SimpleD2RLauncher.ps1 file anywhere. For convenience, I'm placing it on my desktop in a folder called "SimpleD2RLauncher."
 
 2. **Get the Handle Program from Microsoft:**
