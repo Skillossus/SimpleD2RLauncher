@@ -18,8 +18,10 @@ if (!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]
 # Make sure we have handle.exe - do not assume the user is on a 64-bit system
 if ((Get-Command "$PSScriptRoot\handle.exe" -ErrorAction SilentlyContinue) -eq $null) 
 { 
-   Write-Host "Unable to find handle.exe. Please download it from https://learn.microsoft.com/en-us/sysinternals/downloads/handle and unzip handle.exe in the same folder as this script."
-   exit
+    Write-Host "Unable to find handle.exe. Please download it from https://learn.microsoft.com/en-us/sysinternals/downloads/handle and unzip handle.exe in the same folder as this script."
+    Write-Host "Press enter to exit..."
+    Read-Host
+    exit
 }
 
 # Load System.Security so that we can encrypt the web token
