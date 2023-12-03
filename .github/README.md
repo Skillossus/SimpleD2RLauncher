@@ -30,11 +30,11 @@ Before we begin, make sure you meet these two prerequisites:
 
 1. **Download SimpleD2RLauncher:**
    - Visit my GitHub repository and download the latest release. https://github.com/Skillossus/SimpleD2RLauncher/releases/latest
-   - You can place the `SimpleD2RLauncher.ps1`` file anywhere. For convenience, I'm placing it on my desktop in a folder called "SimpleD2RLauncher."
+   - You can place the `SimpleD2RLauncher.ps1` file anywhere. For convenience, I'm placing it on my desktop in a folder called "SimpleD2RLauncher."
 
 2. **Get the Handle Program from Microsoft:**
    - Download `handle.exe` from Microsoft. https://learn.microsoft.com/en-us/sysinternals/downloads/handle
-   - Extract it to the same directory as SimpleD2RLauncher.ps1
+   - Extract it to the same directory as `SimpleD2RLauncher.ps1`
 
 ---
 
@@ -48,7 +48,7 @@ Now, let's set up the accounts you want to launch. This script utilizes a web to
 5. Close out of this private browser completely. You need to do this so that you can make a new private window and log in with your second (and third+) accounts. If, when navigating back to https://us.battle.net/login/en/?externalChallenge=login&app=OSI you are NOT presented with a username and password prompt. Then close the private browser and try again.
 6. Repeat this process for each account. Separating each display name and web token with a comma and ensuring they are wrapped in double quotes. For example, for 2 accounts your script should look like this (substituting your own values).
    - `$DISPLAY_NAMES = @("Hammerdin", "BO Barb")`
-   - `$WEB_TOKENS = @("US-53e84b256e5549ee8dceb3540b15b250-1234567", "US-931c67313fa4484ba94c6de589477762-7654321")`
+   - `$WEB_TOKENS = @("US-REDACTED-1234567", "US-REDACTED-7654321")`
 
 ---
 
