@@ -1,8 +1,4 @@
-![AccountPicker](assets/AccountPicker.png?raw=true "AccountPicker")
-
----
-
-![RegionPicker](assets/RegionPicker.png?raw=true "RegionPicker")
+![AccountPicker](assets/demo.png?raw=true "AccountPicker")
 
 ---
 
@@ -10,7 +6,7 @@
 
 Hey, everyone! Today, I'm excited to share a quick and convenient way to launch and automatically log into multiple instances of Diablo 2: Resurrected from any region. The best part? No need for complicated shortcuts, and it all happens within a single installation folder.
 
-I developed this script because existing launchers were too feature-rich for my modest three accounts. I simply wanted an easy way to chase after Dclone and simplify my cross-region trading experience on platforms like Traderie. As someone who values security, I was hesitant to run PowerShell scripts I couldn't easily read through. So, I created a solution in just 90 lines of clean, digestible, and maintainable code.
+I developed this script because existing launchers were too feature-rich for my modest three accounts. I simply wanted an easy way to chase after Dclone and simplify my cross-region trading experience on platforms like Traderie. As someone who values security, I was hesitant to run PowerShell scripts I couldn't easily read through. So, I created a solution in under 100 lines of clean, digestible, and maintainable code.
 
 Now, let's dive into setting it up.
 
